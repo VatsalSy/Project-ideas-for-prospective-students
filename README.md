@@ -1,5 +1,5 @@
-# Project ideas for prespective students
- Project ideas for prespective students
+# Project ideas for prospective students
+ Project ideas for prospective students
 
 
 ## Project 1: Drop impact
