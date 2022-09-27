@@ -4,4 +4,4 @@
 
 ## Project 1: Drop impact
 
-![Drop impact](https://www.dropbox.com/s/stdyh0ad05ocuug/BouncnigDrops.pdf?raw=1)
+![Drop impact](https://www.dropbox.com/s/stdyh0ad05ocuug/BouncnigDrops.pdf?dl=0)
