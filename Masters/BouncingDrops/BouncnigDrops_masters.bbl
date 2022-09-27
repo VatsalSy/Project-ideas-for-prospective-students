@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{josserand2016drop}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JC}{%
+         family={Josserand},
+         familyi={J\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TST}{%
+         family={Thoroddsen},
+         familyi={T\bibinitperiod},
+         given={Sigurdur\bibnamedelima T},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \strng{namehash}{JCTST1}
+    \strng{fullhash}{JCTST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{365\bibrangedash 391}
+    \field{title}{Drop impact on a solid surface}
+    \field{volume}{48}
+    \field{journaltitle}{Annual review of fluid mechanics}
+    \field{year}{2016}
+  \endentry
+
+  \entry{wildeman2016spreading}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WS}{%
+         family={Wildeman},
+         familyi={W\bibinitperiod},
+         given={Sander},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VCW}{%
+         family={Visser},
+         familyi={V\bibinitperiod},
+         given={Claas\bibnamedelima Willem},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={Detlef},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{WS+1}
+    \strng{fullhash}{WSVCWSCLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{636\bibrangedash 655}
+    \field{title}{On the spreading of impacting drops}
+    \field{volume}{805}
+    \field{journaltitle}{Journal of fluid mechanics}
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput
