@@ -39,35 +39,36 @@ natbib=true]{biblatex}
 \end{center}
 
 \section*{Description}
+
 Recently, during one of his trips to the International Space Station, astronaut Scott Kelly demonstrated that one could play ping-pong in space using water drops (\href{https://www.youtube.com/watch?v=TLbhrMCM4_0}{link here}). This demonstration follows from a long history of research on bouncing drops on superhydrophobic surfaces (see the discussions related to bouncing off superhydrophobic surfaces in \citet{josserand2016drop, VatsalThesis}).\\
 
-In this study, we would like to further our understanding of this process of bouncing droplets \citep{zhang2022impact, vatsalInProgress, sanjay2022drop}. A typical sequence of events is shown in Figure~\ref{Figure::Typical}. In our simulation, we will use an in-house developed read-to-use code to solve the problem of the liquid drop impact on dry substrate. We will focus on the hydrodynamics of the process. 
+In this study, we would like to further our understanding of this process of bouncing droplets \citep{zhang2022impact, vatsalInProgress, sanjay2022drop}. A typical sequence of events is shown in Figure~\ref{Figure::Typical}. In our simulation, we will use an in-house developed read-to-use code to solve the problem of the liquid drop impact on non-wetting substrates. We will focus on the hydrodynamics of the process. 
 
 \begin{figure}[H]
 \begin{center}
- \includegraphics[width=\textwidth]{Figure1.pdf}
- \caption{A typical simulation of a drop bouncing off a superhydrophobic substrate: (a) The drop approaches the substrate, (b) Air is squeezed out of the thin gap between the drop and the substrate, leading to lubrication flow in the gap, (c) The drop spreads on the substrate (see \citet{wildeman2016spreading}), (d) - (e) The drop changes the direction of motion because of the substrate, and (f) The drop bounces back.}
+ \includegraphics[width=\textwidth]{SingularJets.eps}
+ \caption{A typical simulation of a drop bouncing off a superhydrophobic substrate: (a) impacting drop with a constant velocity, (b) inertial shock as the drop hits the substrate, (c, d) the drop spreads on the substrate forming pyramidal shape owing to the propagating capillary waves on the surface of the drop \citep{renardy2003pyramidal, zhang2022impact}, (e) converging capillary waves create an air cavity, and (f, g) collapse of the air cavity entrains a bubble inside the drop and forms a thin and fast Worthington jet reminiscent of the hydrodynamic singularity \citep{Bartolo2006Singular}.}
  \label{Figure::Typical}
 \end{center}
 
 \end{figure}
-\section*{What you will do and what you will learn?}
+\section*{What will you do and what will you learn?}
 In the Physics of Fluids group, we are looking for enthusiastic students to work on this topic.
 \begin{enumerate}
 \itemsep0em
 \item You will learn about fundamental fluid dynamics.
 \item You will get hands-on experience with Computational Fluid Dynamics (CFD).
-\item You will learn how to do basic and advance data analysis.
-\item You will learn how to document and publish ready to use codes and share it with the community, similar to \citet{basiliskVatsal, basiliskVatsalDropFilm, basiliskVatsalViscousBouncing}. 
+\item You will learn how to do basic and advanced data analysis.
+\item You will learn how to document and publish ready-to-use codes and share them with the community, similar to \citet{basiliskVatsal, basiliskVatsalDropFilm, basiliskVatsalViscousBouncing}. 
 \end{enumerate}
 
 As a part of your bachelor's/master's assignment, we would like you to explore the field and come up with exciting avenues. To get you started, here is a list of open questions:
 
 \begin{enumerate}
-	\item How does the normal contact force between the drop and the substrate vary with the drop's viscosity and velocity?
-	\item Drop impact dynamics (including normal contact force and coefficient of restitution) in the limit of zero impact velocity. 
-	\item Dissipate anomaly in the limit of zero drop viscosity. 
-	\item Hydrodynamic singularities in drop impact and how are they regularized? See: \citet{mandre2012mechanism} for impact time singularity and \citet{Bartolo2006Singular, sanjay_lohse_jalaal_2021, zhang2022impact} for singular jets. 
+ \item How much force does the drop apply on the substrate? How does this force depend on the properties of the drop and the substrate properties?
+ \item In the limit of zero impact velocities, capillarity dominates over the inertia of the impacting drop. We would like to understand the dynamics (including normal contact force and coefficient of restitution) in this limit of capillary oscillations. 
+ \item One of the critical features is this process of impacting drops is viscous dissipation. For example, the dissipation occurs in the boundary layer inside the drop attached to the drop-air interface in the limit of zero viscosities. Surprisingly, the viscous dissipation does not vanish even in the vanishing viscosity limit, a behavior attributed to the dissipation anomaly. We would like to understand the role of viscous dissipation in this process. 
+ \item Hydrodynamic singularities in drop impact. See: \citet{mandre2012mechanism} for impact time singularity and \citet{Bartolo2006Singular, sanjay_lohse_jalaal_2021, zhang2022impact} for singular jets. 
 \end{enumerate} 
 
 If you have any questions, fell free to contact \href{mailto:contact@vatsalsanjay.com}{Vatsal} (details below).
@@ -80,5 +81,7 @@ If you have any questions, fell free to contact \href{mailto:contact@vatsalsanja
 \hline
 \end{tabular}
 \end{center}
+
 \printbibliography
+
 \end{document}
