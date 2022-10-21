@@ -1,0 +1,58 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{fullpage}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{graphicx,subfig,wrapfig}
+\usepackage{amsmath,amsfonts,amsthm,amssymb} 
+\usepackage{fancyhdr,fancybox,color}
+\usepackage{enumerate}
+\usepackage[amssymb]{SIunits}             	% SI units package
+\definecolor{MyBlue}{rgb}{0,0.3,0.6}      	
+\usepackage[colorlinks=true,linkcolor=MyBlue,plainpages=false,citecolor=MyBlue,urlcolor=MyBlue]{hyperref}
+\usepackage[all]{hypcap}   					%fixes the hyperref, such that links are anchored at the bottom of the images, not the top
+
+\nonfrenchspacing
+
+\begin{document} 
+\thispagestyle{empty} % remove the page number on this page
+
+\noindent Chair: Physics of Fluids group
+\begin{center}
+ \begin{LARGE}
+  Gravity-defying liquids -- Part II: Numerics
+ \end{LARGE}
+\end{center}
+
+\section*{Description}
+Viscoplastic/yield-stress fluids are commonly observed in our daily life, like toothpaste, ketchup, and hair gel, which unlike Newtonian liquids, do not flow under the influence of gravity when inverted. A new class of yield-stress fluids is thermoresponsive viscoplastic gels, which are frequently used in inkjet printing applications. These gels show viscoplastic shear-thinning behavior at low temperatures due to the presence of a gel network. However, at high temperatures, the gel network dissolves, and the liquid shows Newtonian behavior. In this project, we aim to understand what happens when a droplet of such liquid impacts on a flat, horizontal substrate (Figure~\ref{Fig::Fig1}(a)). The droplet is initially at a high temperature exhibiting Newtonian behavior. However, when it impacts a substrate at low temperature, the gel network starts to form, and viscoplastic behavior is observed (Figure~\ref{Fig::Fig1}(b)). Furthermore, as the droplet recoils back, a clear distinction between a Newtonian and a high yield stress drop can be observed (Figure~\ref{Fig::Fig1}(c)). For this work, we will use Direct Numerical Simulations of the drop impact of yield stress fluids. One of the deliverables will be to understand the effect of yield stress and shear thinning behavior on the droplet's post-impact morphology. The work is part of an academic-industrial collaboration and provides the opportunity to study interesting, complex physics and solve real-world problems. 
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width= 0.75\textwidth]{ProposalPicture.eps}
+ \end{center}
+ \caption{Yield stress drop impact on solid substrate.}
+ \label{Fig::Fig1}
+\end{figure}
+
+\section*{What you will do and what you will learn?}
+In the Physics of Fluids group, we are looking for enthusiastic students to join our newly established project on thermoresponsive gels. 
+\begin{enumerate}
+	\item You will learn about rheology of complex non-Newtonian fluids. 
+	\item You will work with experimentalists and our industrial collaborators at Canon printing company.
+	\item You will learn about the Computational Fluid Dynamics (CFD) fundamentals, and use the free software program Basilisk C \href{http://basilisk.dalembert.upmc.fr}{(http://basilisk.dalembert.upmc.fr)}. 
+	\item You will learn how to do basic and advanced scientific data analysis. 
+\end{enumerate}
+For any questions, please feel free to contact Vatsal or Udo (details below). 
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline \textbf{Supervision} & \textbf{E-mail} & \textbf{Tel.} & \textbf{Office} \\ 
+\hline Vatsal Sanjay & \href{mailto:v.sanjay@utwente.nl}{v.sanjay@utwente.nl} & 053 489 1973 & Meander 264B \\ 
+\hline Dr. Uddalok (Udo) Sen & \href{mailto:u.sen@utwente.nl}{u.sen@utwente.nl} & 053 489 9064 & Meander 214B \\ 
+\hline Prof. Dr. Michel Versluis & \href{mailto:m.versluis@utwente.nl}{m.versluis@utwente.nl} & 053 489 6824 & Meander 260 \\ 
+\hline Prof. Dr. Detlef Lohse & \href{mailto:d.lohse@utwente.nl}{d.lohse@utwente.nl} & 053 489 8076 & Meander 261 \\ 
+\hline 
+\end{tabular} 
+\end{center}
+
+
+\end{document} 
