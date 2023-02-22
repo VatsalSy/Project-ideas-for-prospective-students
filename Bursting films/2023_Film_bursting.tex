@@ -1,0 +1,62 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{fullpage}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{graphicx,subfig,wrapfig}
+\usepackage{amsmath,amsfonts,amsthm,amssymb} 
+\usepackage{fancyhdr,fancybox,color}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage[amssymb]{SIunits}             	% SI units package
+\definecolor{MyBlue}{rgb}{0,0.3,0.6}      	
+\usepackage[colorlinks=true,linkcolor=MyBlue,plainpages=false,citecolor=MyBlue,urlcolor=MyBlue]{hyperref}
+\usepackage[all]{hypcap}   					%fixes the hyperref, such that links are anchored at the bottom of the images, not the top
+\usepackage{natbib}
+
+\nonfrenchspacing
+
+\begin{document} 
+\thispagestyle{empty} % remove the page number on this page
+
+\noindent Chair: Physics of Fluids group
+\begin{center}
+ \begin{LARGE}
+ Bursting of sandwiched liquid films
+ \end{LARGE}
+\end{center}
+
+\section*{Description}
+Gas bubbles rising through a liquid spontaneously burst when they reach the water-air free surface (as seen in Fig.~\ref{figure}). The bursting is initiated bu the appearance of a rupture on the bubble skin, and is followed by the rapid retraction of the liquid film. The retraction velocity in this case is only dependent on the properties of the surrounding fluid, and not of the gas bubble. If the gas bubble is now replaced by an oil (lighter than water) droplet, a similar bursting and retraction is observed at the free surface. However, in this case, the retraction velocity also depends on the properties of the oil. In both the aforementioned scenarios, bursting occurs at an air-liquid interface, where the air acts as a passive medium. However, very little is known about the retraction behavior when the air is replaced by another liquid. In this study, we will numerically investigate the bursting and retraction behavior of a liquid film sandwiched between two other liquids.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\textwidth]{bubble_bursting.pdf}
+\caption{Bursting of an air bubble at an air-water interface (adapted from~\cite{lhuissier2012bursting}).}
+\label{figure}
+\end{figure}
+
+\section*{What you will do and what you will learn?}
+In the Physics of Fluids group, we are looking for enthusiastic students to join our newly established project on bursting of sandwiched liquid films.
+
+\begin{enumerate}
+\item You will learn about film bursting, Taylor-Culick retractions, and viscous dissipation. 
+\item You will work closely with experimentalists. 
+\item You will learn about the Computational Fluid Dynamics (CFD) fundamentals, and use the free software program Basilisk C \href{http://basilisk.dalembert.upmc.fr}{(http://basilisk.dalembert.upmc.fr)}.
+\item You will learn how to do basic and advanced scientific data analysis.
+\end{enumerate}
+For any questions, please feel free to contact Vatsal; details below: 
+
+\begin{center}
+	\begin{tabular}{|l|l|l|l|}
+		\hline \textbf{Supervision} & \textbf{E-mail} & \textbf{Tel.} & \textbf{Office} \\ 
+		\hline Vatsal Sanjay & \href{mailto:contact@vatsalsanjay.com}{contact@vatsalsanjay.com} & 053 489 1973 & Meander 246B \\ 
+		\hline Prof. Dr. Uddalok (Udo) Sen & \href{mailto:uddalok.sen@wur.nl }{uddalok.sen@wur.nl} & External member & University of Wageningen \\ 
+		\hline Prof. Dr. Detlef Lohse & \href{mailto:d.lohse@utwente.nl}{d.lohse@utwente.nl} & 053 489 8076 & Meander 261 \\ 
+		\hline 
+	\end{tabular} 
+\end{center}
+
+\bibliographystyle{unsrt}
+\bibliography{Bubble_bursting}
+
+\end{document} 

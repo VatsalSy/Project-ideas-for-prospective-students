@@ -1,0 +1,76 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{fullpage}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{graphicx,subfig,wrapfig}
+\usepackage{amsmath,amsfonts,amsthm,amssymb} 
+\usepackage{fancyhdr,fancybox,color}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage[amssymb]{SIunits}             	% SI units package
+\definecolor{MyBlue}{rgb}{0,0.3,0.6}      	
+\usepackage[colorlinks=true,linkcolor=MyBlue,plainpages=false,citecolor=MyBlue,urlcolor=MyBlue]{hyperref}
+\usepackage[all]{hypcap}   					%fixes the hyperref, such that links are anchored at the bottom of the images, not the top
+\usepackage{natbib}
+
+\nonfrenchspacing
+
+\begin{document} 
+\thispagestyle{empty} % remove the page number on this page
+
+\noindent Chair: Physics of Fluids group
+\begin{center}
+ \begin{LARGE}
+ Sliding of oil-engulfed droplets
+ \end{LARGE}
+\end{center}
+
+\section*{Project description}
+The sight of rain droplets sticking to window panes is fairly ubiquitous. Upon closer inspection, one can see that sometimes the droplets stick, whereas on other occasions they slide. While sticky droplets may be fine on a window pane, they can be quite a nuisance on the windshield of a car or on the lenses of prescription glasses. One way to get rid of this droplets is to make the surface slippery by coating it with a thin layer of a transparent oil. This facilitates gravity-driven sliding of the water droplet. In such a situation, depending on the interfacial tensions, the oil may completely engulf the water droplet (as shown in Fig.~\ref{figure}). However, how this engulfment affects the sliding behavior of the water droplet is not yet fully understood. In this work, we will numerically study the sliding behavior of water droplets engulfed by an oil layer. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\textwidth]{engulfed_droplet.eps}
+\caption{Water droplet engulfed by an oil layer (adapted from~\cite{li-2020-pnas}).}
+\label{figure}
+\end{figure}
+
+
+\section*{What are the learning components?}
+Learning expectations are two-fold; (i) familiarity with the state-of-the-art simulation code, Basilisk C. (ii) Hands-on experience with comparing the models for drop sliding velocities with the numerical experiments obtained from step (i).\\
+
+\noindent Specifically, the intern will learn
+
+\begin{enumerate}
+	\item volume of fluid (VoF) numerical simulation using Basilisk C to model sliding of droplets
+	\item modeling and analyzing four-phase systems with multiple three-phase contact lines. 
+	\item handling pinning and sliding in these multi-phase systems
+\end{enumerate}
+
+
+\section*{What will the students do?}
+In the Physics of Fluids group, we are looking for enthusiastic students to join our newly established project on sliding of oil-engulfed droplets.
+\begin{enumerate}
+	\item They will study wetting phenomena in 4-phase systems, precursor films, and viscous dissipation. 
+	\item They will work with experimentalists. 
+	\item They will work with the Computational Fluid Dynamics (CFD) fundamentals, and use the free software program Basilisk C \href{http://basilisk.dalembert.upmc.fr}{(http://basilisk.dalembert.upmc.fr)}.
+	\item They will undertake basic and advanced scientific data analysis.
+\end{enumerate}
+
+
+For any questions, please feel free to contact Vatsal; details below: 
+
+\begin{center}
+	\begin{tabular}{|l|l|l|l|}
+		\hline \textbf{Supervision} & \textbf{E-mail} & \textbf{Tel.} & \textbf{Office} \\ 
+		\hline Vatsal Sanjay & \href{mailto:contact@vatsalsanjay.com}{contact@vatsalsanjay.com} & 053 489 1973 & Meander 246B \\ 
+		\hline Prof. Dr. Uddalok (Udo) Sen & \href{mailto:uddalok.sen@wur.nl }{uddalok.sen@wur.nl} & External member & University of Wageningen \\ 
+		\hline Prof. Dr. Detlef Lohse & \href{mailto:d.lohse@utwente.nl}{d.lohse@utwente.nl} & 053 489 8076 & Meander 261 \\ 
+		\hline 
+	\end{tabular} 
+\end{center}
+
+\bibliographystyle{unsrt}
+\bibliography{Engulfed_droplet}
+
+\end{document} 
